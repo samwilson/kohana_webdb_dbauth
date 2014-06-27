@@ -1,0 +1,22 @@
+{
+	"name":        "samwilson/kohana_webdb_dbauth",
+	"description": "A module to integrate the DBAuth module into WebDB.",
+	"homepage":    "https://github.com/samwilson/kohana_webdb_dbauth",
+	"license":     "Simplified BSD",
+	"keywords":    ["kohana", "webdb", "db", "auth", "authorization"],
+	"authors": [
+		{
+			"name":     "Sam Wilson",
+			"email":    "sam@samwilson.id.au",
+			"homepage": "http://samwilson.id.au",
+			"role":     "developer"
+		}
+	],
+	"support": {
+		"issues":   "https://github.com/samwilson/kohana_webdb_dbauth/issues",
+		"source":   "https://github.com/samwilson/kohana_webdb_dbauth"
+	},
+	"require": {
+		"samwilson/kohana_dbauth": "dev-master"
+	}
+}
