@@ -17,6 +17,6 @@
 		"source":   "https://github.com/samwilson/kohana_webdb_dbauth"
 	},
 	"require": {
-		"samwilson/kohana_dbauth": "dev-master"
+		"samwilson/kohana_dbauth": "*"
 	}
 }
