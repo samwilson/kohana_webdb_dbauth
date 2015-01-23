@@ -6,6 +6,13 @@ class Controller_WebDB_DBAuth extends Controller_Base {
 	{
 		$auth = Auth::instance();
 
+		// Must use the DB Auth driver if we're changing the DB user's password.
+		if (get_class($auth) != 'Auth_DB')
+		{
+			$this->add_template_message('The DB Auth driver is not enabled.', 'notice');
+			return;
+		}
+
 		// Must be logged in to change password.
 		if ( ! $auth->logged_in())
 		{
